@@ -6,7 +6,7 @@ const sortInputArray = (event) => {
   let inputValues = [...document.getElementsByClassName("values-dropdown")].map(
     (dropdown) => Number(dropdown.value)
   );
-  console.log(inputValues);
+  //   console.log(inputValues);
 };
 
 sortButton.addEventListener("click", sortInputArray);
