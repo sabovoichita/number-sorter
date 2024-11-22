@@ -31,6 +31,8 @@ const bubbleSort = (array) => {
         "array[] j+1",
         array[j + 1]
       );
+      if (array[j] > array[j + 1]) {
+      }
     }
   }
 };
