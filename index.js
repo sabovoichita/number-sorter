@@ -9,7 +9,10 @@ const sortInputArray = (event) => {
   //   console.log(inputValues);
 };
 
-const updateUI = (array.forEach((num,i)=>{}) = []) => {
-}
+const updateUI = (array = []) => {
+  array.forEach((num, i) => {
+    const outputValueNode = document.getElementById(`output-value-${i}`);
+  });
+};
 
 sortButton.addEventListener("click", sortInputArray);
