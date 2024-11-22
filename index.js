@@ -18,4 +18,6 @@ const updateUI = (array = []) => {
   });
 };
 
+const bubbleSort = (array) => {};
+
 sortButton.addEventListener("click", sortInputArray);
