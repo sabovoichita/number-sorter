@@ -7,7 +7,7 @@ const sortInputArray = (event) => {
     (dropdown) => Number(dropdown.value)
   );
 
-  const sortedValues = selectionSort(inputValues);
+  const sortedValues = insertionSort(inputValues);
 
   updateUI(sortedValues);
   //   console.log(inputValues);
