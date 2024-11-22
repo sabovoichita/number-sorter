@@ -9,4 +9,6 @@ const sortInputArray = (event) => {
   //   console.log(inputValues);
 };
 
+const updateUI = (array = []) => {};
+
 sortButton.addEventListener("click", sortInputArray);
