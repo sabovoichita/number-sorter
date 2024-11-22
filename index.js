@@ -45,14 +45,14 @@ const selectionSort = (array) => {
   for (let i = 0; i < array.length; i++) {
     let minIndex = i;
     for (let j = i + 1; j < array.length; j++) {
-      console.log(
-        "array: ",
-        array,
-        "array[j]: ",
-        array[j],
-        "array[minIndex]: ",
-        array[minIndex]
-      );
+      // console.log(
+      //   "array: ",
+      //   array,
+      //   "array[j]: ",
+      //   array[j],
+      //   "array[minIndex]: ",
+      //   array[minIndex]
+      // );
       if (array[j] < array[minIndex]) {
         minIndex = j;
       }
